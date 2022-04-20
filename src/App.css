@@ -1,38 +1,77 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.formDiv{
+ 
+  padding: 10px;
+  width: 700px;
+  height: 500px;
+  background-image: linear-gradient(360deg, #01a99c 10%, #0698b1 360%);
+  border-radius: 20px;
+  margin: auto;
+  margin-top: 30px;
+}.container{
+padding: 10px;
+align-items: center;
+width: 100%;
+height: 600px;
+/* background: linear-gradient(360deg,#224e4d 10%,#083023 360%); */
+}.form-control{
+  width: 100%;
+  height: 40px;
+  border-radius: 10px;
+  border-style: none;
+  margin-top:  10px;
+}.label{
   color: white;
+  font-family:serif;
+  font-size: larger;
+}.form-group{
+  padding: 15px;
+}#welcomeId{
+  color: #01a99c;
+  text-align: center;
+}#buttonDiv{
+  text-align: center;
+}#buttonId{
+  background-color: darkmagenta;
+  color: #01a99c;
+  border-style: none;
+  border-radius: 15px;
+  width: 70px;
+  height: 40px;
+
+}#SearchDiv{
+  width: 400px;
+  height: 400px;
+  background-image: linear-gradient(360deg, #01a99c 10%, #0698b1 360%);
+  color: white;
+  text-align: center;
+  margin: auto;
+  padding-top: 60px;
+}#taskDiv{
+  background-color: hotpink;
+  height: 400px;
+  width: 600px;
+  margin: auto;
+}
+table, th, td {
+  border: 1px solid black;
 }
 
-.App-link {
-  color: #61dafb;
-}
+.table{
+  float: left;
+  margin: 10px;
+}.container{
+  background-color: #0698b1;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  margin: auto;
+}.tableDiv{
+  align-items: center;
+  text-align: center;
+}.tuduDiv{
+  background-color:crimson;
+  text-align: center;
+}.Qcontainer{
+  width: 100%;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  background-color: #01a99c;
 }
